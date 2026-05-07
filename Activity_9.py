@@ -1,6 +1,7 @@
 # 1) Take the total withdrawal amount as input from the user and store it in `Amount`.
 
-Amount = int(input("Please Enter Amount for Withdraw : "))
+# Amount = int(input("Please Enter Amount for Withdraw : "))
+Amount = int(input("Please Enter Amount for Withdraw : ").replace(",", ""))
 
 # 2) Find how many 100-rupee notes are needed:
 
