@@ -26,3 +26,4 @@ for num in range(lower, upper + 1):
 # 6) If the loop finishes without finding any divisor (no break happened),
 
 # then `num` is prime → print `num`.
+print("End of program.")
