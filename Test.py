@@ -34,8 +34,8 @@ def divide(a, b):
 # Write a menu
 
 input_one = input(("Enter the operation you want to choose: ")).lower()
-input_two = input(float("Enter the first number: "))
-input_three = input(float("Enter the second number: "))
+input_two = float(input("Enter the first number:"))
+input_three = float(input("Enter the second number: "))
 
 if input_one == "add":
     print(add(input_two, input_three))
