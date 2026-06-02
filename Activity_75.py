@@ -1,4 +1,5 @@
 # 1) Create a class named `Parrot`.
+
 class Parrot:
     Species = "Bird"
     def __init__(self, name, age):
@@ -9,6 +10,7 @@ Blu = Parrot("Blu", 10)
 Woo = Parrot("Woo", 15)
 print(f"{Blu.name} is a {Blu.Species}. It's age is {Blu.age}.")
 print(f"{Woo.name} is also a {Woo.Species}. It's age is {Woo.age}.")
+
 # 2) Define a class attribute `species = "bird"`.
 
 # (This attribute is shared by all objects of the class.)

@@ -1,4 +1,5 @@
 # 1) Create a list `L` with some integer values and print it as the original list.
+
 L = [5, 2, 4, 3, 1]
 print("Original List :", L)
 count = 0
@@ -12,6 +13,7 @@ L.sort()
 print("Ascending order: ", L)
 print("Smallest element is:", L[0])
 print("Largest element is:", L[-1])
+
 # 2) Initialize a variable `count = 0` to store the sum of all elements in the list.
 
 # 3) Use a `for` loop to iterate through each element `i` in the list `L`:

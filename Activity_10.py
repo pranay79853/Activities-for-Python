@@ -1,4 +1,4 @@
-#write a program to print a number is positive or negative?
+# Write a program to print a number is positive or negative
 
 Num = 0
 if (Num > 0) :
@@ -9,3 +9,4 @@ elif(Num < 0) :
 
 else :
     print("This number is 0")
+    

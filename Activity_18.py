@@ -1,4 +1,5 @@
 # Grading system
+
 print("Enter Marks Obtained in 5 Subjects: ")
 markOne = int(input())
 

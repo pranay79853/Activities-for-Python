@@ -1,4 +1,5 @@
 # 1) Create input data (student_data):
+
 student_data = {
 "ID1": {
 "Name": "Rahul",
@@ -40,9 +41,11 @@ details["Subject_Integration"]
         result[student_id] = details
 
 # Print final unique students
+
 print("Unique Students:\n")
 for student_id, details in result.items():
     print(student_id, ":", details)
+    
 # a) A dictionary where each key is a student_id (id1, id2, ...).
 
 # b) Each value is another dictionary containing student details (name, class, subject_integration).

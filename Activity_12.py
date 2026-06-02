@@ -1,4 +1,4 @@
-# check greater or less than 15
+# Check if the number is greater or less than 15
 
 input1 = int(input("enter a number : "))
 
@@ -10,3 +10,4 @@ elif(input1 < 15) :
 
 else :
     print("This number is equal to 15.")
+    

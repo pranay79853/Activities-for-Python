@@ -1,5 +1,7 @@
 # 1) Take an integer input from the user and store it in `rows`.
+
 rows = int(input("Enter the number of rows for Floyd's Triangle: "))
+
 # (This represents the total number of rows to print.)
 
 # 2) Initialize `number = 1`.
@@ -7,13 +9,17 @@ number = 1
 # (This is the starting value to be printed in Floyd's Triangle.)
 
 # 3) Print a heading message: "Floyd's Triangle".
+
 print("Floyd's Triangle")
+
 # 4) Use an outer loop to handle each row from 1 to `rows` (inclusive):
+
 for i in range(1, rows + 1):
     for j in range(1, i + 1):
         print(number, end=' ')
         number += 1
     print()
+    
 # a) The current row number is `i`.
 
 # 5) Use an inner loop to handle the numbers in each row:

@@ -1,6 +1,9 @@
 # 1) Import the `random` module to let the computer make a random choice.
+
 import random
+
 # 2) Start an infinite loop using `while True` so the game can repeat for multiple rounds.
+
 while True:
     user_action = input("Enter a choice (Rock, Paper, Scissors): ").lower()
     possible_actions = ["rock", "paper", "scissors"]
@@ -25,6 +28,7 @@ while True:
             print("Computer won! Rock defeats Scissors.")
     else:
         print("Invalid Input! Enter the correct options.")
+        
 # 3) Take the user's choice as input and store it in `user_action`.
 
 # (Expected inputs: "rock", "paper", or "scissors".)

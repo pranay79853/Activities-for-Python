@@ -1,4 +1,5 @@
 # 1) Create a tuple `weather` containing 7 values (one for each day of the week).
+
 weather=(1,0,0,0,1,1,1)
 sunny=0
 rainy=0
@@ -11,6 +12,7 @@ if sunny > rainy:
     print("The weather is good.")
 else:
     print("The weather is not good.")
+    
 # Here, 1 represents sunny weather and 0 represents rainy weather.
 
 # 2) Initialize two counters:

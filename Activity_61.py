@@ -1,4 +1,5 @@
 # 1) Create a tuple `tuplex` containing different data types (string, boolean, float, integer)
+
 tuplex = (("Pranay", True, 25.7, 2014))
 print((tuplex))
 tuplex = (4, 6, 2, 8, 3, 1)
@@ -13,6 +14,7 @@ _slice = tuplex[3:5]
 print(_slice)
 tuplexOne = tuplex[:3]
 print((tuplexOne))
+
 # and print the tuple.
 
 # 2) Create another tuple `tuplex` containing only integer values and print it.

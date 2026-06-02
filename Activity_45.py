@@ -1,4 +1,5 @@
 # Write a program to display weather condition in Autumn and Spring
+
 def weather_condition(season):
     if season == "Autumn":
         print("The weather condition in Autumn is cool and windy.")
@@ -20,5 +21,6 @@ def weather_condition(season):
         print("Invalid season. Please enter either 'Autumn' or 'Spring' or 'Summer' or 'Winter' or 'Pre-Monsoon' or 'Monsoon' or 'Post-Monsoon' or 'Pre-Winter'.")
 
 # Call the function
+
 season = input("Enter the season (Autumn/Spring/Summer/Winter/Pre-Monsoon/Monsoon/Post-Monsoon/Pre-Winter): ").title()
 weather_condition(season)

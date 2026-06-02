@@ -1,4 +1,5 @@
 # 1) Define a function `match_words(words)` that takes a list of words as input.
+
 def match_words(words):
     ctr = 0
     lst = []
@@ -10,6 +11,7 @@ def match_words(words):
     return ctr
 count = match_words(['abc', 'cfc','xyz', 'aba', '1221'])
 print("Number of words having first and last character same:", count)
+
 # 2) Inside the function, initialize:
 
 # a) `ctr = 0` to count how many words match the condition.

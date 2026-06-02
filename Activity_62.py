@@ -1,4 +1,5 @@
 # 1) Define a function `palind(r)` to check whether a tuple is a palindrome
+
 def palind(r):
     if r == tuple(reversed(r)):
         print("This number is a palindrome.")
@@ -7,6 +8,7 @@ def palind(r):
         palind(r)
 t = tuple(map(int, input("Enter elements separated by space: ").split()))
 palind((1, 2, 3, 3, 2, 1))
+
 # (meaning it reads the same forward and backward).
 
 # 2) Inside the function:

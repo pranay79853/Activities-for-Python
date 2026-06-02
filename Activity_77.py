@@ -1,4 +1,5 @@
 # 1) Create a class named `Employee`.
+
 class Employee:
     def __init__(self):
         print("Employee created")
@@ -13,6 +14,7 @@ def Create_obj():
 print("Calling Create_obj() function...")
 obj = Create_obj()
 print("Program End...")
+
 # 2) Define the constructor method `__init__(self)`:
 
 # a) This method runs automatically when an object is created.

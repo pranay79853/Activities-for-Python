@@ -1,4 +1,5 @@
 # 1) Display a menu asking the user to select a ride:
+
 print("Select your ride: ")
 
 print("1. Bike")
@@ -10,6 +11,7 @@ print("2. Car")
 # Select your ride
 
 choice = int( input("Enter your choice: ") )
+
 # - 1 for Bike
 
 # - 2 for Car
@@ -17,6 +19,7 @@ choice = int( input("Enter your choice: ") )
 # 2) Take the user’s input and store it in `choice`.
 
 # 3) If `choice` is 1 (Bike):
+
 if choice == 1:
     print("Select your bike type: ")
     print("1. Scooty")
@@ -37,6 +40,7 @@ elif choice == 2:
         print("You have selected XUV.")
 else:
     print("Invalid Input!")
+    
 # a) Show bike options (Scooty / Scooter)
 
 # b) Take the user’s input for bike type and store it in `choice2`

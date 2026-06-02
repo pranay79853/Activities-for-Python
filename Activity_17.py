@@ -1,6 +1,9 @@
 # Python program to illustrate the use
+
 x = 5
+
 # of 'is' identity operator
+
 if (type(x) is int):
     print("This number is a integer.")
 

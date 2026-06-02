@@ -1,4 +1,5 @@
 # 1) Start a `try` block to run code that may cause exceptions.
+
 try:
     num1, num2 = eval(input("Enter two numbers separated by comma: "))
     result = num1 / num2
@@ -12,6 +13,7 @@ except SyntaxError:
     print("Syntax Error")
 finally:
     print("This will execute no matter what")
+    
 # 2) Take two numbers from the user in a single input, separated by a comma:
 
 # a) Use `eval(input(...))` to read and convert the input.

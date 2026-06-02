@@ -1,4 +1,4 @@
-# Profit loss
+# Profit and Loss
 
 actual_cost = int(input(" Please Enter the Actual Product Price: "))
 

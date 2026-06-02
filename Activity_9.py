@@ -1,6 +1,7 @@
 # 1) Take the total withdrawal amount as input from the user and store it in `Amount`.
 
 # Amount = int(input("Please Enter Amount for Withdraw : "))
+
 Amount = int(input("Please Enter Amount for Withdraw : ").replace(",", ""))
 
 # 2) Find how many 100-rupee notes are needed:
@@ -32,9 +33,11 @@ remaining_after_50 = remaining_after_100 % 50
 # Divide the remainder by 10 (whole number division) and store it in `note_3`.
 
 note_3 = remaining_after_50 // 10
+
 # 7) Find the remaining coins after taking out 10-rupee notes.
 
 coins = remaining_after_50 % 10
+
 # 7) Print the number of 100-rupee notes, 50-rupee notes, and 10-rupee notes.
 
 print("notes of 100 rupee =", note_1)

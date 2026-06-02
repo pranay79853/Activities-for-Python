@@ -1,4 +1,5 @@
 # 1) Create a set `my_set` containing integers {1, 2, 3}
+
 my_set = {1, 2, 3}
 print(my_set)
 my_set = {1.0, "Hello", (1, 2, 3)}
@@ -14,6 +15,7 @@ print(my_set)
 my_set.pop()
 print("After removing the first element from the said set:")
 print(my_set)
+
 # and print the set.
 
 # 2) Create a set `my_set` containing mixed data types:

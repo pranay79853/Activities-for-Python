@@ -1,14 +1,20 @@
 # 1) Print a heading message for the pattern.
+
 print("Half Pyramid Pattern of Stars")
+
 # 2) Take an integer input from the user and store it in `n`.
+
 n = int(input("Enter the number of rows for the half pyramid: "))
+
 # (This represents the number of rows in the half pyramid.)
 
 # 3) Use an outer loop to run from 0 to `n-1` (each iteration builds one row):
+
 for i in range(n):
     for j in range(i + 1):
         print("* ", end="")
     print()
+    
 # a) For each row `i`, the number of stars to print is `i + 1`.
 
 # 4) Use an inner loop to print stars in the current row:

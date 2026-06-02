@@ -1,4 +1,5 @@
 # 1) Use a `for` loop to iterate `x` from 0 to 9 using `range(10)`.
+
 for x in range(10):
     if x % 2 == 0:
         print("twist")
@@ -10,6 +11,7 @@ for x in range(10):
         print("buzz")
     else:
         print(x)
+        
 # 2) For each value of `x`, check conditions in order:
 
 # 3) If `x % 20 == 0`, print "twist".

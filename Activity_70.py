@@ -1,4 +1,5 @@
 # 1) Create two lists `Number_1` and `Number_2` containing integer values.
+
 Number_1 = [int(x) for x in input("Enter numbers separated by space: ").split()]
 print(Number_1)
 Number_2 = [int(x) for x in input("Enter numbers separated by space: ").split()]
@@ -12,6 +13,7 @@ def Square(n):
 Square_1 = list(map(Square, Numbers))
 print(Square_1)
 print("Square of numbers in list")
+
 # 2) Use `map()` with a `lambda` function to add corresponding elements:
 
 # a) The lambda takes two inputs `x` and `y`.

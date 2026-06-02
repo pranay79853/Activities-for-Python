@@ -1,11 +1,16 @@
 # 1) Take two integer inputs from the user and store them in `lower` and `upper`.
+
 lower = int(input("Enter the lower bound: "))
 upper = int(input("Enter the upper bound: "))
+
 # (These represent the starting and ending range.)
 
 # 2) Print a message showing the range: from `lower` to `upper`.
+
 print(f"Prime numbers between {lower} and {upper} are:")
+
 # 3) Use a loop to check every number `num` from `lower` to `upper` (inclusive).
+
 for num in range(lower, upper + 1):
     if num > 1:
         for i in range(2, num):
@@ -13,6 +18,7 @@ for num in range(lower, upper + 1):
                 break
         else:
             print(num)
+
 # 4) For each `num`, first check if it is greater than 1.
 
 # (Because prime numbers are always greater than 1.)
@@ -26,4 +32,5 @@ for num in range(lower, upper + 1):
 # 6) If the loop finishes without finding any divisor (no break happened),
 
 # then `num` is prime → print `num`.
+
 print("End of program.")

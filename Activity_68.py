@@ -1,4 +1,5 @@
 # Write a Python program to find the intersection of two sets.
+
 Set_1 = {"Green", "Blue"}
 Set_2 = {"Blue", "Yellow"}
 print(Set_1)
