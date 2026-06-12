@@ -38,12 +38,12 @@ pygame.display.set_caption("Sprite Collision")
 
 # 10) Create a sprite group `all_sprites = pygame.sprite.Group()` to store and draw sprites.
 all_sprites = pygame.sprite.Group()
-sprite1 = Sprite("Player.png", 50, 50)
+sprite1 = Sprite("Player.png", 80, 80)
 sprite1.rect.x = random.randint(0, SCREEN_WIDTH - sprite1.rect.width)
 sprite1.rect.y = random.randint(0, SCREEN_HEIGHT - sprite1.rect.height)
 all_sprites.add(sprite1)
 
-sprite2 = Sprite("Enemy.png", 30, 20)
+sprite2 = Sprite("Enemy.png", 80, 80)
 sprite2.rect.x = random.randint(0, SCREEN_WIDTH - sprite2.rect.width)
 sprite2.rect.y = random.randint(0, SCREEN_HEIGHT - sprite2.rect.height)
 all_sprites.add(sprite2)
