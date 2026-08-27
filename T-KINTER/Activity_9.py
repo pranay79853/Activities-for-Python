@@ -9,18 +9,18 @@ import os
 # MAIN WINDOW
 # ==================================================
 
-root = Tk()
-root.title("Indian Denomination Counter")
-root.geometry("650x450")
-root.minsize(500, 400)
-root.configure(bg="light blue")
+windows = Tk()
+windows.title("Indian Denomination Counter")
+windows.geometry("650x450")
+windows.minsize(500, 400)
+windows.configure(bg="light blue")
 
 
 # Make main window responsive
-root.columnconfigure(0, weight=1)
-root.rowconfigure(0, weight=1)
-root.rowconfigure(1, weight=0)
-root.rowconfigure(2, weight=0)
+windows.columnconfigure(0, weight=1)
+windows.rowconfigure(0, weight=1)
+windows.rowconfigure(1, weight=0)
+windows.rowconfigure(2, weight=0)
 
 
 # ==================================================
@@ -40,7 +40,7 @@ upload = upload.resize((300, 300))
 image = ImageTk.PhotoImage(upload)
 
 image_label = Label(
-    root,
+    windows,
     image=image,
     bg="light blue"
 )
@@ -58,7 +58,7 @@ image_label.grid(
 # ==================================================
 
 label1 = Label(
-    root,
+    windows,
     text="Hey User! Welcome to Indian Denomination Counter Application.",
     bg="light blue",
     font=("Arial", 11)
@@ -92,7 +92,7 @@ def msg():
 # ==================================================
 
 button1 = Button(
-    root,
+    windows,
     text="Let's get started!",
     command=msg,
     bg="brown",
@@ -116,7 +116,7 @@ button1.grid(
 
 def topwin():
 
-    top = Toplevel(root)
+    top = Toplevel(windows)
 
     top.title("Indian Denominations Calculator")
     top.geometry("600x500")
@@ -399,4 +399,4 @@ def topwin():
 # START PROGRAM
 # ==================================================
 
-root.mainloop()
+windows.mainloop()
